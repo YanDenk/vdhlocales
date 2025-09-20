@@ -1,171 +1,162 @@
-# Russian.
-
+# ru.toml - v10.0.183.2
 [addon]
-
-# Video DownloadHelper description. 132 characters max.
-appDesc = "Скачать видео из Интернета."
-
-# Global strings
-restore_purchase_button = "Восстановить покупку"
-get_premium_button = "Получить премиум-версию"
-back = "Назад" # Go back button - in Settings panel for example
-
-# Strings for the main panel
-waiting_for_media = "Ожидание медиа…"
-nomedia_title = "Не видите нужное видео?"
-nomedia_description = "Запустите видео (и пропустите рекламу, если есть), чтобы помочь обнаружить медиа. Или сообщите об отсутствии медиа."
-nomedia_reload_button = "Принудительно запустить поиск"
-nomedia_reload_button_tooltip = "Принудительно перезагрузить страницу (очистить cookies)"
-show_nomedia_button = "Нет видео?"
-show_nomedia_button_tooltip = "Нажмите здесь, если не можете найти свое видео"
+appDesc = '''Скачать видео из Интернета.'''
+restore_purchase_button = '''Восстановить покупку'''
+get_premium_button = '''Получить премиум-версию'''
+back = '''Назад'''
+waiting_for_media = '''Ожидание медиа…'''
+nomedia_title = '''Не видите нужное видео?'''
+nomedia_description = '''Запустите видео (и пропустите рекламу, если есть), чтобы помочь обнаружить медиа. Или сообщите об отсутствии медиа.'''
+nomedia_reload_button = '''Принудительно запустить поиск'''
+nomedia_reload_button_tooltip = '''Принудительно перезагрузить страницу (очистить cookies)'''
+show_nomedia_button = '''Нет видео?'''
+show_nomedia_button_tooltip = '''Нажмите здесь, если не можете найти свое видео'''
 setting_button_tooltip = '''Настройки'''
-history_button_tooltip = "Показать историю загрузок"
-translate_button_tooltip = "Помочь с переводом VDH"
-
-# Downloaded media box
-open_source_tab_button_tooltip = "Открыть вкладку с исходным кодом"
-retry_download_button_tooltip = "Повторить загрузку"
-delete_file_button_tooltip = "Удалить файл"
-download_directory_button_tooltip = "Показать папку загрузок"
-show_in_popup_button_tooltip = "Открыть во всплывающем окне"
-show_in_sidebar_button_tooltip = "Открыть в боковой панели"
-video_not_playing_button_tooltip = "Видео не воспроизводится?"
+history_button_tooltip = '''Показать историю загрузок'''
+show_all_history_button = '''Показать всё'''
+complete_title = '''Завершено'''
+hide_complete_button = '''Скрыть'''
+translate_button_tooltip = '''Помочь с переводом VDH'''
+open_source_tab_button_tooltip = '''Открыть вкладку с исходным кодом'''
+retry_download_button_tooltip = '''Повторить загрузку'''
+delete_file_button_tooltip = '''Удалить файл'''
+download_directory_button_tooltip = '''Показать папку загрузок'''
+show_in_popup_button_tooltip = '''Открыть во всплывающем окне'''
+show_in_sidebar_button_tooltip = '''Открыть в боковой панели'''
+video_not_playing_button_tooltip = '''Видео не воспроизводится?'''
 play = '''Воспроизвести'''
-warn_drm_tooltip = "Обнаружена DRM-защита"
-
-# Strings for the settings panel.
+warn_drm_tooltip = '''Обнаружена DRM-защита'''
 version_title = '''Версия'''
-account_title = "Аккаунт"
-leave_review_description = "Привет! 🤚 Video DownloadHelper можно пользоваться бесплатно. Хотите оставить положительный отзыв? Это мне очень поможет 😊."
-leave_review_button = "Оставить отзыв"
-account_status= "Статус"
+account_title = '''Аккаунт'''
+one_hundred_downloads_title = '''Вы скачали 100 видео!'''
+leave_review_description = '''Надеемся, вам нравится Video DownloadHelper :) Не могли бы вы написать положительный отзыв на сайте расширения?'''
+leave_review_button = '''Оставить отзыв'''
+account_status = '''Статус'''
 account_status_premium = '''Premium ($1)'''
-free_account = "Бесплатный тариф"
+free_account = '''Бесплатный тариф'''
 copy_to_clipboard = '''Скопировать информацию в буфер обмена'''
-my_account_button = "Мой аккаунт"
-download_title = "Загрузки"
-show_notification = "Показывать уведомление после завершения загрузки"
+my_account_button = '''Мой аккаунт'''
+download_title = '''Загрузки'''
+show_notification = '''Показывать уведомление после завершения загрузки'''
 max_parallel_downloads = '''Максимальное количество параллельных загрузок'''
-change_download_directory = "Изменить папку загрузок"
-
-private_browsing_title = "Приватный режим"
-private_browsing_warning = "Video DownloadHelper не работает в приватном режиме."
-private_browsing_notifications = "Показывать уведомления для загрузок в приватном режиме"
-private_browsing_button = "Изменить настройки приватного режима"
-prefer_original_audio = "Отдавать предпочтение оригинальному звучанию" # Firefox only
-prefer_hls = "Отдавать предпочтение HLS" # Firefox only
-settings_history_title = "История"
-history_limit = "Количество дней хранения истории"
+change_download_directory = '''Изменить папку загрузок'''
+saveas_detected_warning = '''Мы обнаружили, что ваш браузер отображает диалоговое окно «Сохранить как» после завершения загрузки. Рекомендуем отключить эту опцию в настройках браузера.'''
+change_saveas_setting = '''Изменить настройку'''
+private_browsing_title = '''Приватный режим'''
+private_browsing_warning = '''Video DownloadHelper не работает в приватном режиме.'''
+private_browsing_notifications = '''Показывать уведомления для загрузок в приватном режиме'''
+private_browsing_button = '''Изменить настройки приватного режима'''
+prefer_original_audio = '''Отдавать предпочтение оригинальному звучанию'''
+prefer_hls = '''Отдавать предпочтение HLS'''
+settings_history_title = '''История'''
+transient_history_description = '''Показать завершенные загрузки на панели'''
+history_limit = '''Количество дней хранения истории'''
 appearance_title = '''Внешний вид'''
-theme_title = "Тема"
-theme_light = "Светлая тема"
-theme_dark = "Темная тема"
-theme_system = "Системная тема"
-popup_size_title = "Размер окна"
-popup_size_small = "Маленький"
-popup_size_medium = "Средний"
-popup_size_big = "Большой"
-panel_position_title = "Положение панели"
-use_popup = "Во всплывающем окне"
-use_sidebar = "В боковой панели"
+theme_title = '''Тема'''
+theme_light = '''Светлая тема'''
+theme_dark = '''Темная тема'''
+theme_system = '''Системная тема'''
+popup_size_title = '''Размер окна'''
+popup_size_small = '''Маленький'''
+popup_size_medium = '''Средний'''
+popup_size_big = '''Большой'''
+panel_position_title = '''Положение панели'''
+use_popup = '''Показывать во всплывающем окне'''
+use_sidebar = '''Показывать в боковой панели'''
 behavior_title = '''Поведение'''
 show_in_context_menu = '''Доступ к меню команд по правому клику мышью на целевой странице'''
-restart_addon = "Перезапустить расширение"
-reset_settings = "Сбросить настройки"
-prefer_highest_quality = "Выбирать максимальное доступное качество вместо 1080p по умолчанию (медленнее загрузка, но лучше качество)."
-
-# String for history page
-history_title = "История загрузок"
-history_warning = "Мы не записываем вашу историю загрузок. Хотите, чтобы Video DownloadHelper запоминал историю?"
-history_warning_2 = "Не волнуйтесь, все данные остаются на вашем устройстве. Мы ценим вашу конфиденциальность."
-enable_history = "Включить историю"
-clear_history = "Очистить историю"
-disable_history = "Отключить историю"
-no_downloads_yet = "Пока нет загрузок."
-
-# Various notifications
-download_failed = "Ошибка загрузки"
-download_failed_description = "Что-то пошло не так. Сообщите об ошибке, и мы постараемся разобраться (мы анонимно отправляем URL видео — мы не отслеживаем вас!)."
-download_with_drm_failed_description = "Что-то пошло не так. И мы думаем, что это видео защищено DRM. Мы не поддерживаем видео с DRM."
-no_youtube = "Загрузка с YouTube запрещена"
+restart_addon = '''Перезапустить расширение'''
+reset_settings = '''Сбросить настройки'''
+prefer_highest_quality = '''Выбирать максимальное доступное качество вместо 1080p по умолчанию (медленнее загрузка, но лучше качество).'''
+preview_mode_title = '''Предпросмотр медиа '''
+preview_mode_none = '''Отключено'''
+preview_mode_video = '''Предпросмотр короткого видео'''
+preview_mode_image = '''Изображение '''
+history_title = '''История загрузок'''
+history_warning = '''Мы не записываем вашу историю загрузок. Хотите, чтобы Video DownloadHelper запоминал историю?'''
+history_warning_2 = '''Не волнуйтесь, все данные остаются на вашем устройстве. Мы ценим вашу конфиденциальность.'''
+enable_history = '''Включить историю'''
+clear_history = '''Очистить историю'''
+disable_history = '''Отключить историю'''
+no_downloads_yet = '''Пока нет загрузок.'''
+download_failed = '''Ошибка загрузки'''
+download_failed_description = '''К сожалению, нам не удалось загрузить этот медиафайл. Мы стараемся поддерживать как можно больше сайтов, поэтому было бы очень полезно, если бы вы сообщили об этой ошибке (это анонимно!).'''
+download_interrupted = '''Загрузка прервана'''
+download_interrupted_description = '''Нам удалось скачать ваш файл, но из-за проблем с сетью он может оказаться короче, чем ожидалось. Мы стараемся поддерживать как можно больше сайтов, поэтому было бы очень полезно, если бы вы сообщили об этой проблеме (это анонимно!).'''
+download_with_drm_failed_description = '''Что-то пошло не так. И мы думаем, что это видео защищено DRM. Мы не поддерживаем видео с DRM.'''
+no_youtube = '''Загрузка с YouTube запрещена'''
 no_youtube_description = '''К сожалению, интернет-магазин Chrome не допускает расширений для загрузки видео с YouTube, потому эта функция отсутствует в версии дополнения для Chrome.'''
-premium_required = '''Требуется статус Premium'''
-premium_yt_required_description = "Без статуса Премиум загрузка с YouTube возможна только через 2 часа после предыдущей."
-premium_required_description = '''Без статуса Premium загрузка HLS может быть произведена только через $1 минут после предыдущей'''
-
-# Downloading media box
-stop = '''Остановка'''
+premium_required = '''Требуется Premium статус'''
+premium_yt_required_description = '''Без статуса Premium загрузка с YouTube возможна только через 2 часа после предыдущей.'''
+premium_required_description = '''Без статуса Premium загрузка HLS может быть произведена только через 2 часа после предыдущей'''
+youtube_too_many_downloads = '''Упс, похоже, YouTube заблокирован'''
+youtube_too_many_downloads_description = '''YouTube иногда ограничивает количество запрашиваемых видео. К сожалению, мы ничего не можем с этим поделать. Попробуйте позже.'''
+stop = '''Остановить '''
 cancel = '''Отмена'''
-
-# Media we found in the page
-copy_url = "Копировать URL" # In menu and as a button
-always_copy_url = "Всегда копировать URL"
-download_button = "Скачать"
-download_audio_button = "Аудио"
-download_audio_and_video_menu = "Аудио и видео"
-download_audio_only_menu = "Только аудио"
-audio_only_for_this_website = "Всегда только аудио для этого сайта"
-details = "Подробнее"
-more_settings = "Дополнительные настройки…"
-
-# Report buttons
-report = "Сообщить"
-reporting = "Отправка…"
-reported = "Отправлено"
-
-# Video not playing - page
-not_playing_title = "Видео не воспроизводится?"
-not_playing_broken_title = "Проблемы со звуком или видео?"
-not_playing_broken_description = "Сообщите о проблеме. Мы постараемся разобраться (мы анонимно отправляем URL видео — мы не отслеживаем вас!)"
-not_playing_broken_solution_title = "Попробуйте современный видеоплеер"
-not_playing_broken_solution_windows_1 = "Рекомендуем VLC:"
-not_playing_broken_solution_mac_1 = "Рекомендуем IINA:"
-not_playing_broken_solution_2 = "Это современные, безопасные и открытые плееры."
-not_playing_default_player = "Убедитесь, что ваш видеоплеер установлен по умолчанию"
-not_playing_default_player_solution_windows = "В Windows: \"Панель управления\", выберите \"Программы по умолчанию\" и измените настройки для вашего плеера."
-not_playing_default_player_solution_mac = "Откройте папку загрузок и кликните правой кнопкой мыши на видеофайле. Нажмите «Свойства» В разделе «Открыть с помощью» выберите IINA Нажмите «Изменить все»."
+copy_url = '''Копировать URL'''
+always_copy_url = '''Всегда копировать URL'''
+download_button = '''Скачать'''
+download_as_button_and_menu = '''Скачать как…'''
+rename_short = '''Переименовать'''
+always_download_as_menu = '''Всегда скачивать как…'''
+download_audio_button = '''Аудио'''
+download_audio_and_video_menu = '''Скачать аудио и видео'''
+download_audio_only_menu = '''Скачать аудио'''
+audio_only_for_this_website = '''Всегда только аудио для этого сайта'''
+details = '''Подробнее'''
+more_settings = '''Дополнительные настройки…'''
+report = '''Сообщить'''
+reporting = '''Отправка…'''
+reported = '''Отправлено, спасибо!'''
+not_playing_title = '''Видео не воспроизводится?'''
+not_playing_broken_title = '''Проблемы со звуком или видео?'''
+not_playing_broken_description = '''Сообщите о проблеме с медиафайлами. Мы сделаем всё возможное, чтобы выяснить причину ошибки (ссылка на видео отправляется анонимно — мы не отслеживаем вас!)'''
+not_playing_broken_solution_title = '''Попробуйте современный видеоплеер'''
+not_playing_broken_solution_windows_1 = '''Рекомендуем VLC:'''
+not_playing_broken_solution_mac_1 = '''Рекомендуем IINA:'''
+not_playing_broken_solution_2 = '''Это современные, безопасные и открытые плееры.'''
+not_playing_default_player = '''Убедитесь, что ваш видеоплеер установлен по умолчанию'''
+not_playing_default_player_solution_windows = '''В Windows: "Панель управления", выберите "Программы по умолчанию" и измените настройки для вашего плеера.'''
+not_playing_default_player_solution_mac = '''Откройте папку загрузок и кликните правой кнопкой мыши на видеофайле. Нажмите «Свойства» В разделе «Открыть с помощью» выберите IINA Нажмите «Изменить все».'''
 
 [web]
-
-# On top of all pages.
-header_help = "Помощь"
-header_community = "Сообщество"
-
-# Context: activation page after receiving the magic link via email.
-activate_title = "Активация" # hope it crashes
-activate_pending = "Ожидание…"
-activate_success = "Успех"
-activate_error = "Ошибка"
-activate_no_addon_found = "Расширение не найдено. Оно установлено?"
-activate_no_method_found = "Метод не найден."
-activate_help_me = "Помогите мне."
-
-# Context: webpage to restore a purchase, which require the user to enter their email.
-issue_title = "Восстановление покупки"
-issue_submit = "Подтвердить"
-issue_thank_you = "Спасибо!"
-issue_enter_email = "Чтобы восстановить покупку, введите email, который использовали при покупке:"
-issue_email_sent = "Мы отправили вам письмо с ссылкой для активации."
-issue_or_digit = "Или введите 6-значный код из письма:"
-
-# Context: this page - https://downloadhelper.net/
-landing_text1 = "Скачивайте любое видео с любых сайтов, все просто!"
-landing_text2 = "Поддержка 1000+ сайтов"
-landing_text3 = "Доверяют 7 миллионов пользователей"
-landing_text4 = "4.5 звезды в магазине расширений"
-landing_install_for_google = "Установить для Chrome"
-landing_install_for_mozilla = "Установить для Firefox"
-landing_install_for_microsoft = "Установить для Edge"
-landing_feature1_title = "HD-загрузка на максимальной скорости"
-landing_feature1_description = "Скачивайте видео в высоком качестве на максимальной скорости. Мы гордимся самым быстрым движком загрузки."
-landing_feature2_title = "Архивируйте видео"
-landing_feature2_description = "Сохраняйте любимые видео, чтобы ничего не потерять."
-landing_feature3_title = "Поддержка live-стримов"
-landing_feature3_description = "Смотрите трансляции оффлайн без ограничений по времени."
-landing_feature4_title = "Скачивание аудио"
-landing_feature4_description = "Извлекайте аудио из видео в MP3 или подкасты."
-
-# Context: this is for a "Купить лицензию" webpage.
-premium_hero1 = "Одна оплата — пожизненное использование"
-premium_hero2 = "Приобретите лицензию Video DownloadHelper навсегда."
-premium_hero3 = "Скачивайте видео сколько Вам угодно без ограничений!"
+back = '''Назад'''
+header_help = '''Помощь'''
+header_community = '''Сообщество'''
+activate_title = '''Активация'''
+activate_pending = '''Ожидание…'''
+activate_success = '''Успех'''
+activate_error = '''Ошибка'''
+activate_no_addon_found = '''Расширение не найдено. Оно установлено?'''
+activate_no_method_found = '''Метод не найден.'''
+activate_help_me = '''Помогите мне.'''
+issue_title = '''Восстановление покупки'''
+issue_submit = '''Подтвердить'''
+issue_thank_you = '''Спасибо!'''
+issue_enter_email = '''Чтобы восстановить покупку, введите email, который использовали при покупке:'''
+issue_email_sent = '''Мы отправили вам письмо с ссылкой для активации.'''
+issue_or_digit = '''Или вы также можете ввести 6-значный код, который мы вам отправили:'''
+issue_just_digit = '''Введите 6-значный код, который мы вам отправили:'''
+issue_i_have_a_code = '''(Нажмите здесь, если у вас уже есть код)'''
+issue_i_have_a_key = '''(Нажмите здесь, если у вас есть лицензионный ключ)'''
+issue_key = '''Введите ваш лицензионный ключ Video DownloadHelper:'''
+landing_text1 = '''Скачивайте любое видео с любых сайтов, все просто!'''
+landing_text2 = '''Поддержка 1000+ сайтов'''
+landing_text3 = '''Доверяют 7 миллионов пользователей'''
+landing_text4 = '''4.5 звезды в магазине расширений'''
+landing_install_for_google = '''Установить для Chrome'''
+landing_install_for_mozilla = '''Установить для Firefox'''
+landing_install_for_microsoft = '''Установить для Edge'''
+landing_feature1_title = '''HD-загрузка на максимальной скорости'''
+landing_feature1_description = '''Скачивайте видео в высоком качестве на максимальной скорости. Мы гордимся самым быстрым движком загрузки.'''
+landing_feature2_title = '''Архивируйте видео'''
+landing_feature2_description = '''Сохраняйте любимые видео, чтобы ничего не потерять.'''
+landing_feature3_title = '''Поддержка live-стримов'''
+landing_feature3_description = '''Смотрите трансляции оффлайн без ограничений по времени.'''
+landing_feature4_title = '''Скачивание аудио'''
+landing_feature4_description = '''Извлекайте аудио из видео, конвертируя их в MP3 или подкасты для удобного прослушивания.'''
+premium_hero1 = '''Одна оплата — пожизненное использование'''
+premium_hero2 = '''Приобретите лицензию Video DownloadHelper навсегда.'''
+premium_hero3 = '''Скачивайте видео сколько Вам угодно без ограничений!'''
+welcome_text = '''Теперь вы не пропустите ни одного видео!'''
+welcome_pin_message = '''Прикрепите иконку расширения к панели:'''
